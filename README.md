@@ -59,4 +59,4 @@ Model Trainer is licensed under the MIT License. See the [LICENSE](LICENSE) file
 
 ## Support
 
-For support, please open an issue on our [GitHub repository](https://github.com/yourusername/Model_Trainer/issues).
+For support, please open an issue on our [GitHub repository](https://github.com/Rathoreatri03/Model_Trainer/issues).
