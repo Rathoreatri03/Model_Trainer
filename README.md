@@ -1,8 +1,6 @@
-Here's the updated `README.md` file in Markdown format for you to use directly:
+# ObjectTrainer
 
-# Model Trainer
-
-Model Trainer is a Python package designed to simplify the process of training YOLO (You Only Look Once) models for object detection tasks. With Model Trainer, users can easily train YOLO models using custom datasets and split their data into training, validation, and testing sets. The package provides classes for both model training and data splitting, allowing users to efficiently manage their training pipeline. Additionally, Model Trainer includes functionality for saving the best-performing model weights, making it easy to deploy trained models for inference tasks.
+ObjectTrainer is a Python package designed to simplify the process of training YOLO (You Only Look Once) models for object detection tasks. With ObjectTrainer, users can easily train YOLO models using custom datasets and split their data into training, validation, and testing sets. The package provides classes for both model training and data splitting, allowing users to efficiently manage their training pipeline. Additionally, ObjectTrainer includes functionality for saving the best-performing model weights, making it easy to deploy trained models for inference tasks.
 
 ## Features
 
@@ -12,18 +10,18 @@ Model Trainer is a Python package designed to simplify the process of training Y
 
 ## Installation
 
-You can install Model Trainer using pip:
+You can install ObjectTrainer using pip:
 
 ```bash
-pip install model-trainer
-```
+pip install ObjectTrainer
+````
 
 ## Usage
 
-### Training a YOLO Model
+## Training a YOLO Model
 
 ```python
-from model_trainer import YOLO_trainer
+from ObjectTrainer import YOLO_trainer
 
 # Initialize YOLO Trainer with absolute data.yaml folder path and absolute destination folder path for best weights
 trainer = YOLO_trainer(Data_yaml_fold_path='path/to/data.yaml', Best_Weight_dest='path/to/destination', epochs=50)
@@ -35,7 +33,7 @@ trainer.run_full_training()
 ### Splitting Data
 
 ```python
-from model_trainer import data_splitter
+from ObjectTrainer import data_splitter
 
 # Initialize Data Splitter with absolute data folder path, destination folder path, and number of classes
 splitter = data_splitter(data_folder='path/to/data', dest_fold='path/to/destination', no_classes=3)
@@ -46,7 +44,7 @@ splitter.run_full_split()
 
 ## License
 
-Model Trainer is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Model Trainer is licensed under the MIT License. See the [LICENSE](https://github.com/Rathoreatri03/Model_Trainer/blob/main/LICENSE) file for details.
 
 ## Support
 

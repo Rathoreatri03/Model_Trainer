@@ -7,12 +7,12 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.1'
 DESCRIPTION = 'Simplify YOLO model training and data splitting for object detection tasks.'
-LONG_DESCRIPTION = 'model-trainer is a Python package designed to simplify the process of training YOLO (You Only Look Once) models for object detection tasks. With model-trainer, users can easily train YOLO models using custom datasets and split their data into training, validation, and testing sets. The package provides classes for both model training and data splitting, allowing users to efficiently manage their training pipeline. Additionally, model-trainer includes functionality for saving the best-performing model weights, making it easy to deploy trained models for inference tasks.'
+LONG_DESCRIPTION = 'ObjectTrainer is a Python package designed to simplify the process of training YOLO (You Only Look Once) models for object detection tasks. With ObjectTrainer, users can easily train YOLO models using custom datasets and split their data into training, validation, and testing sets. The package provides classes for both model training and data splitting, allowing users to efficiently manage their training pipeline. Additionally, ObjectTrainer includes functionality for saving the best-performing model weights, making it easy to deploy trained models for inference tasks.'
 # Setting up
 setup(
-    name="model-trainer",
+    name="ObjectTrainer",
     version=VERSION,
     author="Atri Rathore",
     author_email="<rathoreatri@gmail.com>",
